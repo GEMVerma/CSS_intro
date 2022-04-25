@@ -6,7 +6,7 @@ html{
     height: 100vh;
     width: 90vw;
     font-size: 10px;
-    border :2px solid red;
+    border :2px solid rgb(139, 187, 236);
 }
 h1{
 text-align: center;
@@ -27,10 +27,10 @@ padding: 3rem;
     
     }
     div > p {
-        background-color:green;
+        background-color:rgb(241, 128, 177);
       }
 div + p {
-        color:darkblue;
+        color:rgb(174, 114, 46);
       }
 div ~ p {
         opacity:60% ;
@@ -40,7 +40,7 @@ div ~ p {
     height: 10px;
     radius: 10px;
     border-radius: 10px;
-    background-color: cadetblue;
+    background-color: rgb(165, 222, 224);
     transition:transform 2s;
       }
 #menu:hover{
